@@ -1,4 +1,4 @@
-<div class="card-item col">
+<div class="card-item">
   {%- if project.redirect -%}
   <a href="{{ project.redirect }}">
   {%- else -%}
@@ -15,7 +15,7 @@
         <div class="col-md-12">
         {%- endif -%}
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
+            <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
             <div class="row ml-1 mr-1 p-0">
               {%- if project.github -%}
@@ -30,6 +30,11 @@
                 </span>
                 {%- endif -%}
               </div>
+              {%- endif -%}
+              {%- if project.tags -%}
+                {%- for tag in project.tags -%}
+                  <span class="badge badge-pill badge-primary" style="margin-top: 6px; margin-right: 6px">{{ tag }}</span>
+                {%- endfor -%}
               {%- endif -%}
             </div>
           </div>
