@@ -1,11 +1,9 @@
 ---
-layout: cv
+layout: default  # change to cv if you want to embed cv_pdf
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+# cv_pdf: CV_Francesco_Salvi.pdf
+redirect_to: /assets/pdf/CV_Francesco_Salvi.pdf
 ---
