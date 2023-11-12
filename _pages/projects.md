@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A partial collection of ongoing research cool past projects.
+description: A partial collection of ongoing research and cool past projects.
 nav: true
 nav_order: 2
 display_categories: [Ongoing, Past]
