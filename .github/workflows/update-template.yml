@@ -8,13 +8,24 @@ on:
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
+    permissions: # I don't think these are actually needed, but haven't tested without.
+      contents: write
+      pull-requests: write
+      actions: write
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
         uses: actions/checkout@v4
+        with: #### This with: token: part is what fixed it for me ####
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+
       - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v1
+        uses: AndreasAugustin/actions-template-sync@v1.5.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: alshedivat/al-folio
           upstream_branch: master
+
+
+
+            
