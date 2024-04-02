@@ -202,6 +202,9 @@
         {%- capture link -%}https://facebook.com/{{ site.facebook_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {% if site.bluesky_url %}
+  <a href="https://bsky.app/profile/{{ site.bluesky_url }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+    {% endif %}
     {%- if site.youtube_id -%}
         {%- capture link -%}https://youtube.com/@{{ site.youtube_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
