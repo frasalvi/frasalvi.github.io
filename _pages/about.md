@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I am a last-year MSc student at [EPFL](https://www.epfl.ch/en/), working at [dlab](https://dlab.epfl.ch/) with [Robert West](https://dlab.epfl.ch/people/west/). Currently, I am also a Visiting Fellow at [FBK](https://www.fbk.eu/it/), where I am writing my Thesis with [Riccardo Gallotti](https://chub.fbk.eu/team). Before EPFL, I completed a BSc in Physics at [UniBo](https://www.unibo.it/it).
+Hi there! I am a researcher at [EPFL](https://www.epfl.ch/en/), working at [dlab](https://dlab.epfl.ch/) with [Robert West](https://dlab.epfl.ch/people/west/). I hold a MSc in Computational Science from EPFL and a BSc in Physics from [UniBo](https://www.unibo.it/it). Previously, I was also a Visiting Fellow at [FBK](https://www.fbk.eu/it/) (advised by [Riccardo Gallotti](https://chub.fbk.eu/team)), and I worked as an intern for [Bain & Company](https://www.bain.com/) and [DemoSquare](https://demosquare.ch/landing/).
 
 My research broadly focuses on connecting computational methods and machine learning with society, analyzing large-scale **digital social systems** to provide insights on human behavior and social dynamics. I am particularly interested in political phenomena such as **misinformation** and **polarization**.
 
