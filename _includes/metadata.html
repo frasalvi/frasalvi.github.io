@@ -122,8 +122,8 @@
         {%- capture link -%}https://www.linkedin.com/in/{{ site.linkedin_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
-    {%- if site.twitter_username -%}
-        {%- capture link -%}https://twitter.com/{{ site.twitter_username }}{%- endcapture -%}
+    {%- if site.x_username -%}
+        {%- capture link -%}https://twitter.com/{{ site.x_username }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.mastodon_username -%}
@@ -203,7 +203,8 @@
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {% if site.bluesky_url %}
-    <a href="{{ site.bluesky_url }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+        { %- capture link -%}{{ site.bluesky_url }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
     {% endif %}
     {%- if site.youtube_id -%}
         {%- capture link -%}https://youtube.com/@{{ site.youtube_id }}{%- endcapture -%}

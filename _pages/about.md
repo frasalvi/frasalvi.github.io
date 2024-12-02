@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! I am a researcher at [EPFL](https://www.epfl.ch/en/), working at [dlab](https://dlab.epfl.ch/) with [Robert West](https://dlab.epfl.ch/people/west/). I hold a MSc in Computational Science from EPFL and a BSc in Physics from [UniBo](https://www.unibo.it/it). Previously, I was also a Visiting Fellow at [FBK](https://www.fbk.eu/it/) and I worked as an intern for [Bain & Company](https://www.bain.com/) and [DemoSquare](https://demosquare.ch/landing/).
 
-My research broadly focuses on connecting computational methods and machine learning with society, analyzing the **societal impacts of LLMs** and agentic systems and drawing insights on human behavior. I am particularly interested in the **persuasive capabilities** of frontier models and in political phenomena such as **online polarization** and misinformation.
+My research broadly focuses on connecting computational methods and machine learning with society, analyzing the **societal impacts of LLMs** and drawing insights on human behavior. I am particularly interested in the **persuasive capabilities** of frontier models and in political phenomena such as **online polarization** and misinformation.
 
 Keywords: *Computational Social Science, Natural Language Processing, Social Computing*.
 
