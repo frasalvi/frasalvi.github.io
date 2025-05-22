@@ -5,5 +5,6 @@ description: Developing a hierarchical classifier for Wikipedia images, categori
 img: assets/img/heuristics.jpg
 redirect: https://github.com/epfl-dlab/wiki_image_classification
 importance: 1
-category: Ongoing
+category: Past
+tags: [wikipedia, semi-supervised-learning, image-classification]
 ---

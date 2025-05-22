@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A partial collection of ongoing research and cool past projects.
+description: A partial collection of cool past projects!
 nav: true
 nav_order: 2
-display_categories: [Ongoing, Past]
+display_categories: [Past]
 horizontal: true
 ---
 
@@ -36,10 +36,15 @@ horizontal: true
   {% endfor %}
 
 {%- else -%}
+
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
+
+{%- assign sorted_projects = site.projects | sort: "importance" -%}
+
   <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
+
+{% if page.horizontal -%}
+
   <div class="container">
     <div class="row">
     {%- for project in sorted_projects -%}
