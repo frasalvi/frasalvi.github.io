@@ -43,7 +43,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://mayankm96.github.io/" target="_blank">★</a>
 <a href="https://markdean.info/" target="_blank">★</a>
 <a href="https://kakodkar.github.io/" target="_blank">★</a>
-<a href="https://sahirbhatnagar.com/" target="_blank">★</a>
+<a href="https://sahirbhatnagar.com/" target="_blank">★</a> 
 <a href="https://spd.gr/" target="_blank">★</a>
 <a href="https://jay-sarkar.github.io/" target="_blank">★</a>
 <a href="https://aborowska.github.io/" target="_blank">★</a>
