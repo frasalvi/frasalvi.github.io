@@ -3,8 +3,8 @@ layout: page
 title: Projects
 permalink: /projects/
 description: A partial collection of cool past projects!
-nav: true
-nav_order: 2
+nav: false
+nav_order: 
 display_categories: [Past]
 horizontal: true
 ---

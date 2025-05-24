@@ -1,0 +1,13 @@
+<!-- _includes/media.html -->
+<div class="col" style="padding: 0px 15px 16px 15px">
+  <a href="{{ media.redirect }}">
+    <div class="card h-100 hoverable">
+      {%- if media.img %} {%- include figure.html path=media.img alt="media
+      thumbnail" -%} {%- endif %}
+      <div class="card-body" style="padding: 2px 15px 15px 15px">
+        <h4 class="card-title">{{ media.outlet }}</h4>
+        <h6 style="color: #c1c1c1"><i>{{ media.title }}</i></h6>
+      </div>
+    </div>
+  </a>
+</div>

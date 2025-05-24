@@ -283,5 +283,19 @@
       %}
     </div>
     {%- endif %}
+
+    <!-- Media coverage block -->
+    {% assign related_media = site.media | where: "related_paper", entry.title
+    -%} {% assign related_media_count = related_media | size -%} {% if
+    related_media_count > 0 %} {%- assign sorted_media = related_media | sort:
+    "importance" -%}
+    <p style="margin: 8px 0px 0px 0px">
+      Media Coverage:&nbsp; {% for media in sorted_media %}
+      <a href="{{ media.redirect }}" style="display: inline-block"
+        >{{ media.outlet }}</a
+      >
+      &nbsp; {% endfor %}
+    </p>
+    {% endif %}
   </div>
 </div>
