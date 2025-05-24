@@ -10,7 +10,7 @@ papers: ["On the conversational persuasiveness of GPT-4", "MEDITRON-70B: Scaling
 
 
 <!-- pages/media.md -->
-<div class="media" style="margin-top: 24px">
+<div class="media" style="margin-top: 24px; flex-direction: column">
 
 {%- for paper in page.papers %}
   {%- assign categorized_media = site.media | where: "related_paper", paper -%}
