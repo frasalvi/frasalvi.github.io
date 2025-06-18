@@ -23,4 +23,4 @@ My research broadly focuses on connecting computational methods and machine lear
 
 Keywords: *Computational Social Science, Natural Language Processing, Social Computing*.
 
-Outside of work, I enjoy [hiking](/assets/img/hiking.jpg), playing [board games](/assets/img/boardgames2.jpg), and being a [psephology](https://en.wikipedia.org/wiki/Psephology) geek.
+Outside of work, I enjoy [hiking](/assets/img/hiking.jpg), playing [board games](/assets/img/boardgames.jpg), and being a [psephology](https://en.wikipedia.org/wiki/Psephology) geek.
