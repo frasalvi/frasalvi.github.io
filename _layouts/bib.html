@@ -291,9 +291,11 @@
     "importance" -%}
     <p style="margin: 8px 0px 0px 0px">
       Media Coverage:&nbsp; {% for media in sorted_media %}
-      <a href="{{ media.redirect }}" style="display: inline-block"
-        >{{ media.outlet }}</a
-      >
+        {% if media.redirect -%}
+    <a href="{{ media.redirect }}">
+      {%- else -%}
+      <a href="{{ media.url | relative_url }}">
+        {%- endif %}{{ media.outlet }}</a>
       &nbsp; {% endfor %}
     </p>
     {% endif %}

@@ -1,6 +1,11 @@
 <!-- _includes/media.html -->
 <div class="col" style="padding: 0px 15px 16px 15px">
+  {% if media.redirect -%}
   <a href="{{ media.redirect }}">
+    {%- else -%}
+    <a href="{{ media.url | relative_url }}">
+      {%- endif %}
+
     <div class="card h-100 hoverable">
       {%- if media.img %} {%- include figure.html path=media.img alt="media
       thumbnail" -%} {%- endif %}
