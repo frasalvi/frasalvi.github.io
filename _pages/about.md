@@ -17,10 +17,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I am a researcher at [EPFL](https://www.epfl.ch/en/), working at [dlab](https://dlab.epfl.ch/) with [Robert West](https://dlab.epfl.ch/people/west/). I hold a MSc in Computational Science from EPFL and a BSc in Physics from [UniBo](https://www.unibo.it/it). Previously, I was also a Visiting Fellow at [FBK](https://www.fbk.eu/it/) and I worked as an intern for [Bain & Company](https://www.bain.com/) and [DemoSquare](https://demosquare.ch/landing/).
+Hi there! I am a first-year PhD student in Computer Science at Princeton University, advised by [Manoel Horta Ribeiro](https://manoelhortaribeiro.github.io/). I am affiliated with Princeton's [Center for Information Technology Policy (CITP)](https://citp.princeton.edu/) and supported by the Gordon Wu Fellowship.
+
+Previously, I received my MSc at EPFL's [DLAB](https://dlab.epfl.ch/), working with [Robert West](https://dlab.epfl.ch/people/west/), and my BSc in Physics at the University of Bologna.
+During my studies, I also spent some time as a Visiting Fellow at [FBK](https://www.fbk.eu/it/) and interning at [Bain & Company](https://www.bain.com/) and [DemoSquare](https://demosquare.ch/landing/).
 
 My research broadly focuses on connecting computational methods and machine learning with society, analyzing the **societal impacts of LLMs** and drawing insights on human behavior. I am particularly interested in the **persuasive capabilities** of frontier models and in political phenomena such as **online polarization** and misinformation.
 
-Keywords: *Computational Social Science, Natural Language Processing, Social Computing*.
+Keywords: *Computational Social Science, Social Computing, Natural Language Processing, Persuasion*.
 
 Outside of work, I enjoy [hiking](/assets/img/hiking.jpg), playing [board games](/assets/img/boardgames.jpg), and being a [psephology](https://en.wikipedia.org/wiki/Psephology) geek.
