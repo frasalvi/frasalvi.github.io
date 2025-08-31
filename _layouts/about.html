@@ -28,7 +28,13 @@ layout: default
       path=profile_image_path class=profile_image_class alt=page.profile.image
       cache_bust=true -%} {% endif -%} {%- if page.profile.more_info %}
       <div class="more-info">{{ page.profile.more_info }}</div>
-      {%- endif %}
+      {%- endif %} {%- if page.profile.email -%} {% assign light_email_path =
+      page.profile.email[1] | prepend: 'assets/img/' %} {% assign
+      dark_email_path = page.profile.email[0] | prepend: 'assets/img/' %} {%
+      include figure.html path=light_email_path class="only-dark" alt=""
+      cache_bust=true style="height: 25px, margin: 0px" %} {% include
+      figure.html path=dark_email_path class="only-light" alt="" cache_bust=true
+      style="height: 25px, margin: 0px" %} {%- endif %}
     </div>
     {%- endif %}
 

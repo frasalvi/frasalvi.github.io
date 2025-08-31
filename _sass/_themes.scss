@@ -39,10 +39,10 @@
     display : block;
   }
 
-  .repo-img-light {
+  .only-light {
     display: block;
   }
-  .repo-img-dark {
+  .only-dark {
     display: none;
   }
 }
@@ -84,10 +84,10 @@ html[data-theme='dark'] {
     display : none;
   }
 
-  .repo-img-light {
+  .only-light {
     display: none;
   }
-  .repo-img-dark {
+  .only-dark {
     display: block;
   }
 }
