@@ -6,7 +6,7 @@ subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Francesco-3.jpg
   image_circular: false # crops the image to make it circular
   more_info: # salvi[dot]fnc[at]gmail[dot]com
   email: [email_light.png, email_dark.png]
