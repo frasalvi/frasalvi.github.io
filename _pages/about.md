@@ -22,7 +22,7 @@ Hi there! I am a first-year PhD student in Computer Science at Princeton Univers
 Previously, I received my MSc at EPFL's [DLAB](https://dlab.epfl.ch/), working with [Robert West](https://dlab.epfl.ch/people/west/), and my BSc in Physics at the University of Bologna.
 During my studies, I also spent some time as a Visiting Fellow at [FBK](https://www.fbk.eu/it/) and interning at [Bain & Company](https://www.bain.com/) and [DemoSquare](https://demosquare.ch/landing/).
 
-My research broadly focuses on connecting computational methods and machine learning with society, analyzing the **societal impacts of LLMs** and drawing insights on human behavior. I am particularly interested in the **persuasive capabilities** of frontier models and in political phenomena such as **online polarization** and misinformation.
+My research broadly focuses on connecting computational methods and machine learning with society, analyzing the **societal impacts of AI** and drawing insights on human behavior. I am particularly interested in the **persuasive capabilities** of frontier models and in political phenomena such as **online polarization** and misinformation.
 
 Keywords: *Computational Social Science, Social Computing, Natural Language Processing, Persuasion*.
 
