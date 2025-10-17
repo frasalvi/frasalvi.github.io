@@ -1,10 +1,10 @@
 ---
 layout: page
-related_paper: On the conversational persuasiveness of GPT-4
+related_paper: Personal
 outlet: BresciaOggi
 title: Bresciani nel mondo / Francesco Salvi
 img: assets/img/press/debategpt_bresciaoggi_preview.png
-importance: 2.5
+importance: 2
 ---
 
 <div class="row justify-content-center">

@@ -1055,6 +1055,43 @@ nav[data-toggle="toc"] {
   }
 }
 
+/* Media page sidebar */
+nav.media-sidebar[data-toggle="toc"] {
+  position: fixed;
+  left: 20px;
+  top: 220px !important;
+  width: 220px;
+  z-index: 100;
+
+  .nav-link {
+    color: var(--global-text-color);
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border-left: 2px solid transparent;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: var(--global-hover-color);
+      border-left-color: var(--global-hover-color);
+      background-color: transparent;
+    }
+
+    &.active {
+      color: var(--global-theme-color);
+      border-left-color: var(--global-theme-color);
+      font-weight: 500;
+      background-color: transparent;
+    }
+  }
+}
+
+/* Hide media sidebar on medium and small screens */
+@media (max-width: 1400px) {
+  nav.media-sidebar[data-toggle="toc"] {
+    display: none;
+  }
+}
+
 .featured-posts {
   a {
     color: var(--global-text-color-light);
