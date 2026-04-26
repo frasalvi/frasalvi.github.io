@@ -5,7 +5,7 @@ permalink: /media/
 description:
 nav: true
 nav_order: 2
-papers: ["Commercial Persuasion in AI-Mediated Conversations", On the conversational persuasiveness of GPT-4", "MEDITRON-70B: Scaling Medical Pretraining for Large Language Models", "Personal"]
+papers: ["Commercial Persuasion in AI-Mediated Conversations", "On the conversational persuasiveness of GPT-4", "MEDITRON-70B: Scaling Medical Pretraining for Large Language Models", "Personal"]
 ---
 
 
