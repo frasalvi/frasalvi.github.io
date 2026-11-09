@@ -7,7 +7,7 @@ first_name: Francesco
 middle_name:
 last_name: Salvi
 email: # your email address
-description: # the ">" symbol means to ignore newlines until "footer_text:"
+description: Personal website of Francesco Salvi
 footer_text:
 # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -15,7 +15,7 @@ keywords: computational-social-science, css, machine-learning # add your own key
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 💭 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: frasalvi.github.io # the base hostname & protocol for your site
+url: https://frasalvi.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -56,7 +56,7 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
@@ -121,7 +121,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: # blog_name will be displayed in your blog page.
 # blog_nav_title: your blog must have a title for it to be displayed in the nav bar. If blank, blog is disabled
-blog_description: a simple whitespace theme for academics
+blog_description:
 permalink: # /blog/:year/:title/
 
 # Pagination
@@ -147,15 +147,8 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -218,7 +211,6 @@ plugins:
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
@@ -263,9 +255,6 @@ jekyll-archives:
     year: "/blog/:year/"
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
-
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -405,24 +394,3 @@ mdb:
 medium_zoom:
   version: "1.0.8"
   integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
-
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
