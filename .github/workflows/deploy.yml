@@ -30,6 +30,8 @@ jobs:
       with:
         ruby-version: '3.4'
         bundler-cache: true
+    - name: Install ImageMagick
+      run: sudo apt-get update && sudo apt-get install -y --no-install-recommends imagemagick
     - name: Install and Build 🔧
       run: |
         npm install -g purgecss@8.0.0
