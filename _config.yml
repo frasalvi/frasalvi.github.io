@@ -45,6 +45,10 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
+# External links appended to the navbar, after the pages
+external_nav:
+  - title: Resetmaxxing
+    url: https://resetmaxxing.substack.com/
 footer_fixed: true
 
 # Dimensions
